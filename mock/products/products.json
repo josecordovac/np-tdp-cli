@@ -1,0 +1,79 @@
+{
+  "app/products": {
+    "GET": {
+      "codeResponse": "202",
+      "delay": "900",
+      "responses": [
+        {
+          "statusCode": "200",
+          "headers": {
+            "response": {
+              "SAMPLE_HEADER": "AAAAAAAAAAAAAABBBBBBBBBBBBBBCCCCCCCCCCCCCCCCC"
+            }
+          },
+          "body": {
+            "response": {
+              "user": {
+                "name": "nombre samuel",
+                "lastname": "apelledo ospina"
+              }
+            }
+          }
+        },
+        {
+          "statusCode": "202",
+          "headers": {
+            "response": {
+              "GEO_STATUS": ""
+            }
+          },
+          "body": {
+            "response": {
+              "user": {
+                "name": "nombre status 202",
+                "lastname": "apelledo status 202"
+              }
+            }
+          }
+        }
+      ]
+    },
+    "PUT": {
+      "codeResponse": "201",
+      "responses": [
+        {
+          "statusCode": "201",
+          "headers": {
+            "response": {
+              "GEO_STATUS": ""
+            }
+          },
+          "body": {
+            "response": {
+              "user": {
+                "name": "gerarjeff",
+                "lastname": "bigmaster"
+              }
+            }
+          }
+        },
+        {
+          "statusCode": "202",
+          "headers": {
+            "response": {
+              "GEO_STATUS": ""
+            }
+          },
+          "body": {
+            "response": {
+              "user": {
+                "name": "gerarjeff",
+                "lastname": "bigmaster"
+              }
+            }
+          }
+        }
+      ]
+    }
+  }
+}

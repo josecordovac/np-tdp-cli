@@ -1,0 +1,42 @@
+{
+  "app/gvs": {
+    "GET": {
+      "codeResponse": "200",
+      "delay": "1500",
+      "responses": [
+        {
+          "statusCode": "200",
+          "headers": {
+            "response": {
+              "SAMPLE_HEADER": "AAAAAAAAAAAAAABBBBBBBBBBBBBBCCCCCCCCCCCCCCCCC"
+            }
+          },
+          "body": {
+            "response": {
+              "user": {
+                "number": "980068106",
+                "groupValue": "POS1"
+              }
+            }
+          }
+        },
+        {
+          "statusCode": "202",
+          "headers": {
+            "response": {
+              "GEO_STATUS": ""
+            }
+          },
+          "body": {
+            "response": {
+              "user": {
+                "name": "nombre status 202",
+                "lastname": "apelledo status 202"
+              }
+            }
+          }
+        }
+      ]
+    }
+  }
+}
